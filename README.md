@@ -6,6 +6,12 @@ With this servermod you can easily send script commands via a POST request with 
 This is an robust and fast ArmA 3 Servermod that runs on 32 bit and 64 bit Windows (Sooner or later also Linux but i have no machine to test or compile)! It listens on a specified port for incoming requests. The servermod consists of a pbo and 6 DLLs (2 ArmA extension DLLs and 4 library DLLs for OpenSSL).
 
 
+# For Developers
+This is built in VS2019 (vc-142) using the <a href=https://github.com/ipkn/crow>crow webserver</a>, the boost library from nuget (vc141, version 1.69 (all above 1.69 will cause compiler issues)) It also uses the openssl-vc142 package from nuget for https support for crow.
+
+If you have knowledge in linux development, please help me :3
+
+
 # How to install
 Download the .ZIP file in the <a href=https://github.com/realbadidas/Arma-Remote-Code-Executor/releases>releases</a> tab. Now its just drag and drop: Drag the contents of the folder "A3" into your ArmA 3 Dedicated Server folder, start your server with the mod loaded and it should work right out of the box! But please, for christs sake, change the default username and password:p
 
