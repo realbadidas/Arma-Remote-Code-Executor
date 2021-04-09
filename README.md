@@ -14,16 +14,16 @@ Download the .ZIP file in the <a href=https://github.com/realbadidas/Arma-Remote
 The Config File is pretty self explanatory
 <img src=https://i.imgur.com/wZOOfdv.png></img>
 
-[b]Fields:[/b]
-host (string, default: "127.0.0.1"): A hostname (or IP-Address)
-port (string, default: "6601"): Port
+<b>Fields:</b>
+host (string, default: "127.0.0.1"): A hostname (or IP-Address) <br />
+port (string, default: "6601"): Port <br /><br />
 
-https (boolean, default: true): If you want to use HTTPS or not
+https (boolean, default: true): If you want to use HTTPS or not <br /><br />
 
-SSL_Key (string, default: "@sqfremoteexecute\ssl.key"): Path to your ssl.key file (only needed if using https)
-SSL_Cert (string, default: "@sqfremoteexecute\ssl.cert"): Path to your ssl.cert file (only needed if using https)
+SSL_Key (string, default: "@sqfremoteexecute\ssl.key"): Path to your ssl.key file (only needed if using https) <br />
+SSL_Cert (string, default: "@sqfremoteexecute\ssl.cert"): Path to your ssl.cert file (only needed if using https) <br /><br />
 
-users (array that contains an array of credentials, default user is "foo" with pass of "bar", [b]1337 is the maximum number of user accounts![/b]
+users (array that contains an array of credentials, default user is "foo" with pass of "bar", <b>1337 is the maximum number of user accounts!</b> <br /><br />
 
 
 # Safety Reminder
