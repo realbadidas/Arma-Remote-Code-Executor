@@ -14,7 +14,7 @@ Download the .ZIP file in the <a href=https://github.com/realbadidas/Arma-Remote
 The Config File is pretty self explanatory
 <img src=https://i.imgur.com/wZOOfdv.png></img>
 
-<b>Fields:</b>
+<b>Fields:</b><br />
 host (string, default: "127.0.0.1"): A hostname (or IP-Address) <br />
 port (string, default: "6601"): Port <br /><br />
 
