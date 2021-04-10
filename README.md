@@ -5,6 +5,8 @@ With this servermod you can easily send script commands via a POST request with 
 # Hello there!
 This is an robust and fast ArmA 3 Servermod that runs on 32 bit and 64 bit Windows (Sooner or later also Linux but i have no machine to test or compile)! It listens on a specified port for incoming requests. The servermod consists of a pbo and 6 DLLs (2 ArmA extension DLLs and 4 library DLLs for OpenSSL).
 
+This is still under development, so you may encounter bugs, please create an issue on the github page explaining your bug and it will get fixed ASAP!)
+
 
 # For Developers
 This is built in VS2019 (vc-142) using the <a href=https://github.com/ipkn/crow>crow webserver</a>, the boost library from nuget (vc141, version 1.69 (all above 1.69 will cause compiler issues)) It also uses the openssl-vc142 package from nuget for https support for crow.
