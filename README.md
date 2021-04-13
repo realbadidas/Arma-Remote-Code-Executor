@@ -45,3 +45,8 @@ users (array that contains an array of credentials, default user is "foo" with p
 
 # Safety Reminder
 Always use HTTPS!!! If you are not using it, every time you use this tool (except you use localhost or your local connection), a hacker can just grab the username and password and do bad things afterwards.
+
+# Known Issues
+1. If you have a bad JSON-Config your server will crash.
+2. If you have bad paths to your ssl certificate files your server will crash.
+3. If you rename the mod the server may crash or the mod doesn't even start
