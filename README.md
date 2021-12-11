@@ -53,6 +53,6 @@ Always use HTTPS!!! If you are not using it, every time you use this tool (excep
 - Live Mapmarker on a website of players that are playing on the server.
 - Live whitelist (give licences to people while they are playing on the server (this example is for altis life)).
 - Give player weapons or some other things, like cars and stuff.
-- Announce things like events just over a button on a website/admintool.
+- Announce things like events just with a button on a website/admintool.
 - Debugging purposes.
 - And even more!
