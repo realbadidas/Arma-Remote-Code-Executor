@@ -27,12 +27,13 @@ This is built in VS2019 (vc-142) using the <a href=https://github.com/ipkn/crow>
 
 # Config File
 The Config File is pretty self explanatory
-<img src=https://i.imgur.com/wZOOfdv.png></img>
+<img src=https://i.imgur.com/8vqkkXS.png></img>
 
 
 <b>Fields:</b><br />
 host (string, default: "127.0.0.1"): A hostname (or IP-Address) <br />
 port (string, default: "6601"): Port <br />
+consoleWindow (boolean, default: "true"): If true, a console window will appear that outputs debugging information <br />
 https (boolean, default: true): If you want to use HTTPS or not <br />
 SSL_Key (string, default: "@sqfremoteexecute\ssl.key"): Path to your ssl.key file (only needed if using https) <br />
 SSL_Cert (string, default: "@sqfremoteexecute\ssl.cert"): Path to your ssl.cert file (only needed if using https) <br />
