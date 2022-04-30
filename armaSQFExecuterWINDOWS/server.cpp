@@ -1,10 +1,8 @@
 
-#define CROW_ENABLE_SSL
-
 #include "server.h"
 
-#include "crow.h"
-#include <string>
+//#include "crow.h"
+//#include <string>
 #include "RSJparser.tcc"
 #include "picosha2.h"
 #include <iostream>
@@ -73,6 +71,7 @@ crow::SimpleApp app;
     }
 
     bool checkIfValidUser(std::string user, std::string pass) {
+        //THIS IS SUPER GHETTO BUT WORKS FOR NOW
         for (int i = 0; i <= 1337; i++) {
             if (JSON["users"][i]["user"].as<std::string>("") == user && JSON["users"][i]["pass"].as<std::string>("") == pass && user != "" && pass != "") {
                 return true;
@@ -110,62 +109,80 @@ crow::SimpleApp app;
             .methods("POST"_method)
             ([](const crow::request& req)
                 {
-                    std::cout << "New Post Request" << std::endl;
-                    std::cout << "Script execute: " << std::endl;
-
-                    std::string returnStr = "Error";
-                    std::string returnCode = "1";
-
                     std::string str = req.body;
-
-                    CROW_LOG_INFO << "New Message: " << str;
-
 
                     std::string user = urlParamsParser(str, "user");
                     std::string password = urlParamsParser(str, "pass");
                     std::string execCommand = urlParamsParser(str, "execute");
 
+
+                    if (user == "" || password == "" || execCommand == "") {
+                        return finishUp(false, "NOTGIVEN", "NOTGIVEN", 7, "No return; CHECK BODY PARAMS");
+                    }
+
                     std::string hash_hex_str;
                     picosha2::hash256_hex_string(password, hash_hex_str);
 
 
-                    if (checkIfValidUser(user, hash_hex_str)) {
-                        int i = 0;
+                    bool isAuthed = checkIfValidUser(user, hash_hex_str);
 
+
+                    if (!isAuthed) {
+                        return finishUp(false, user+"@"+ hash_hex_str, execCommand, 6, "Wrong password or username");
+
+                    }
+
+
+                        int i = 0;
                         commandBuffer = urlDecode(execCommand);
+
                         while (returnBuffer == "no-message-yet" && i < 300) { std::this_thread::sleep_for(10ms); i++; }
 
                         if (returnBuffer == "no-message-yet") {
-                            returnCode = "2";
-                            returnStr = "NO RESPONSE FROM SCRIPT";
-                            commandBuffer = "no-message-yet";
+                            return finishUp(true, user + "@" + hash_hex_str, clearBufferAndReturnOld(&commandBuffer), 5, "NO RESPONSE FROM SCRIPT");
                         }
                         else {
-                            returnCode = "0";
-                            returnStr = returnBuffer;
-                            returnBuffer = "no-message-yet";
+                            return finishUp(true, user + "@" + hash_hex_str, commandBuffer, 0, clearBufferAndReturnOld(&returnBuffer));
                         }
-                    }
-                    else {
-                        returnCode = "3";
-                        returnStr = "Access denied for " + user + "@" + hash_hex_str;
-                        std::cout << "Invalid password or username: " << user + "@" << hash_hex_str << std::endl;
-                    }
-                    crow::json::wvalue x;
-
-                    x["code"] = returnCode;
-                    x["return"] = returnStr;
-                    std::cout << "Code " << returnCode << std::endl;
-                    std::cout << "----" << std::endl;
-                    return x;
                 });
 
-        std::cout << "Webserver started." << std::endl;
+        std::cout << "Webserver started:" << std::endl;
+        std::cout << "PORT " << port << std::endl;
+        std::cout << "HOST " << host << "\r\n" << std::endl;
+
 
         if (JSON["https"].as<bool>(false))
             app.port(port).bindaddr(host).multithreaded().ssl_file(SSL_Cert, SSL_Key).run();
         else
             app.port(port).bindaddr(host).multithreaded().run();
+    }
+    crow::json::wvalue finishUp(bool authenticated, std::string userPassCombo, std::string execute, int returnCode, std::string returnStr) {
+        crow::json::wvalue toReturn;
+
+        toReturn["code"] = returnCode;
+        toReturn["return"] = returnStr;
+
+
+        std::cout << "\r\n+==================================+" << endl;
+        std::cout << "Incoming Request" << endl;
+        std::cout << "Authenticated? >> ";
+        if (authenticated) {
+            std::cout << "YES";
+        }
+        else {
+            std::cout << "NO";
+        }
+        std::cout << " >> " << userPassCombo << endl;
+        std::cout << "SCRIPT EXEC: " << execute << endl;
+        std::cout << "CODE: " << returnCode << endl;
+        std::cout << "RETURN: " << returnStr << endl;
+
+        return toReturn;
+    }
+    std::string clearBufferAndReturnOld(std::string *buffer) {
+        std::string oldBuffer = *buffer;
+        *buffer = "no-message-yet";
+        return oldBuffer;
     }
     void stopServer() {
         app.stop();
