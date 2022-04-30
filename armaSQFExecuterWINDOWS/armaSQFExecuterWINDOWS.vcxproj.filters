@@ -11,5 +11,6 @@
   <ItemGroup>
     <None Include="packages.config" />
     <None Include="RSJparser.tcc" />
+    <None Include="RSJParserD.tcc" />
   </ItemGroup>
 </Project>

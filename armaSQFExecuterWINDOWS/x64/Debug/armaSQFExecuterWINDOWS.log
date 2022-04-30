@@ -1,0 +1,330 @@
+﻿  dllmain.cpp
+C:\libs\cpp\crow.h(117,37): warning C4267: "=": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\libs\cpp\crow.h(366,1): warning C4267: "Argument": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\libs\cpp\crow.h(379,1): warning C4267: "Argument": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\libs\cpp\crow.h(394,1): warning C4267: "Argument": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\libs\cpp\crow.h(2835,42): warning C4244: "=": Konvertierung von "__int64" in "uint16_t", möglicher Datenverlust
+C:\libs\cpp\crow.h(2842,42): warning C4244: "=": Konvertierung von "__int64" in "uint16_t", möglicher Datenverlust
+C:\libs\cpp\crow.h(2849,42): warning C4244: "=": Konvertierung von "__int64" in "uint16_t", möglicher Datenverlust
+C:\libs\cpp\crow.h(2858,46): warning C4244: "=": Konvertierung von "__int64" in "uint16_t", möglicher Datenverlust
+C:\libs\cpp\crow.h(2951,31): warning C4244: "=": Konvertierung von "__int64" in "uint16_t", möglicher Datenverlust
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+C:\libs\cpp\crow.h(4519,39): warning C4267: "Argument": Konvertierung von "size_t" nach "uint32_t", Datenverlust möglich
+C:\libs\cpp\crow.h(4767,1): warning C4267: "return": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\libs\cpp\crow.h(5000,1): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\libs\cpp\crow.h(5019,1): warning C4267: "=": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\libs\cpp\crow.h(5021,1): warning C4267: "Argument": Konvertierung von "size_t" nach "_Ty", Datenverlust möglich
+          with
+          [
+              _Ty=int
+          ]
+C:\libs\cpp\crow.h(5095,1): warning C4267: "Argument": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\libs\cpp\crow.h(5219,1): warning C4267: "Argument": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\libs\cpp\crow.h(5228,1): warning C4267: "Argument": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\libs\cpp\crow.h(5287,1): warning C4267: "=": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\libs\cpp\crow.h(5374,1): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\libs\cpp\crow.h(5681,1): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\libs\cpp\crow.h(7395,1): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\libs\cpp\crow.h(8149,108): warning C4244: "Argument": Konvertierung von "__int64" in "unsigned int", möglicher Datenverlust
+C:\libs\cpp\crow.h(8167,109): warning C4244: "Argument": Konvertierung von "__int64" in "unsigned int", möglicher Datenverlust
+C:\libs\cpp\crow.h(8185,111): warning C4244: "Argument": Konvertierung von "__int64" in "unsigned int", möglicher Datenverlust
+C:\libs\cpp\crow.h(8204,1): warning C4267: "Argument": Konvertierung von "size_t" nach "unsigned int", Datenverlust möglich
+C:\libs\cpp\crow.h(8217,1): warning C4267: "Argument": Konvertierung von "size_t" nach "unsigned int", Datenverlust möglich
+C:\libs\cpp\crow.h(8230,1): warning C4267: "Argument": Konvertierung von "size_t" nach "unsigned int", Datenverlust möglich
+C:\libs\cpp\crow.h(8272,45): warning C4267: "+=": Konvertierung von "size_t" nach "unsigned int", Datenverlust möglich
+C:\libs\cpp\crow.h(8354,1): warning C4267: "return": Konvertierung von "size_t" nach "unsigned int", Datenverlust möglich
+C:\libs\cpp\crow.h(8390,1): warning C4267: "Argument": Konvertierung von "size_t" nach "unsigned int", Datenverlust möglich
+C:\libs\cpp\crow.h(6643,35): warning C4267: "+=": Konvertierung von "size_t" nach "char", Datenverlust möglich
+C:\libs\cpp\crow.h(6638): message : beim Kompilieren der Klasse Vorlage-Memberfunktion "std::string crow::websocket::Connection<crow::SSLAdaptor>::build_header(int,size_t)"
+C:\libs\cpp\crow.h(6628): message : Siehe Verweis auf die gerade kompilierte Instanziierung "std::string crow::websocket::Connection<crow::SSLAdaptor>::build_header(int,size_t)" der Funktions-Vorlage.
+C:\libs\cpp\crow.h(7765): message : Siehe Verweis auf die gerade kompilierte Klasse Vorlage-Instanziierung "crow::websocket::Connection<crow::SSLAdaptor>".
+C:\libs\cpp\crow.h(6591,43): warning C4267: "+=": Konvertierung von "size_t" nach "char", Datenverlust möglich
+C:\libs\cpp\crow.h(6588): message : beim Kompilieren der Klasse Vorlage-Memberfunktion "void crow::websocket::Connection<crow::SSLAdaptor>::send_pong(const std::string &)"
+C:\libs\cpp\crow.h(6941): message : Siehe Verweis auf die gerade kompilierte Instanziierung "void crow::websocket::Connection<crow::SSLAdaptor>::send_pong(const std::string &)" der Funktions-Vorlage.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\xmemory(674,1): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "_Objty", Datenverlust möglich
+          with
+          [
+              _Objty=int
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(592): message : Siehe Verweis auf die gerade kompilierte Instanziierung "void std::_Default_allocator_traits<_Alloc>::construct<_Ty,unsigned __int64>(_Alloc &,_Objty *const ,unsigned __int64 &&)" der Funktions-Vorlage.
+          with
+          [
+              _Alloc=std::allocator<int>,
+              _Ty=int,
+              _Objty=int
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(597): message : Siehe Verweis auf die gerade kompilierte Instanziierung "void std::_Default_allocator_traits<_Alloc>::construct<_Ty,unsigned __int64>(_Alloc &,_Objty *const ,unsigned __int64 &&)" der Funktions-Vorlage.
+          with
+          [
+              _Alloc=std::allocator<int>,
+              _Ty=int,
+              _Objty=int
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(610): message : Siehe Verweis auf die gerade kompilierte Instanziierung "void std::vector<int,std::allocator<int>>::_Emplace_back_with_unused_capacity<_Ty>(_Ty &&)" der Funktions-Vorlage.
+          with
+          [
+              _Ty=unsigned __int64
+          ]
+C:\libs\cpp\crow.h(5271): message : Siehe Verweis auf die gerade kompilierte Instanziierung "void std::vector<int,std::allocator<int>>::emplace_back<unsigned __int64>(unsigned __int64 &&)" der Funktions-Vorlage.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\xmemory(674,1): warning C4267: "Argument": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(592): message : Siehe Verweis auf die gerade kompilierte Instanziierung "void std::_Default_allocator_traits<_Alloc>::construct<_Ty,crow::mustache::ActionType,size_t&,size_t&>(_Alloc &,_Objty *const ,crow::mustache::ActionType &&,size_t &,size_t &)" der Funktions-Vorlage.
+          with
+          [
+              _Alloc=std::allocator<crow::mustache::Action>,
+              _Ty=crow::mustache::Action,
+              _Objty=crow::mustache::Action
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(597): message : Siehe Verweis auf die gerade kompilierte Instanziierung "void std::_Default_allocator_traits<_Alloc>::construct<_Ty,crow::mustache::ActionType,size_t&,size_t&>(_Alloc &,_Objty *const ,crow::mustache::ActionType &&,size_t &,size_t &)" der Funktions-Vorlage.
+          with
+          [
+              _Alloc=std::allocator<crow::mustache::Action>,
+              _Ty=crow::mustache::Action,
+              _Objty=crow::mustache::Action
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(610): message : Siehe Verweis auf die gerade kompilierte Instanziierung "void std::vector<crow::mustache::Action,std::allocator<crow::mustache::Action>>::_Emplace_back_with_unused_capacity<_Ty,size_t&,size_t&>(_Ty &&,size_t &,size_t &)" der Funktions-Vorlage.
+          with
+          [
+              _Ty=crow::mustache::ActionType
+          ]
+C:\libs\cpp\crow.h(5272): message : Siehe Verweis auf die gerade kompilierte Instanziierung "void std::vector<crow::mustache::Action,std::allocator<crow::mustache::Action>>::emplace_back<crow::mustache::ActionType,size_t&,size_t&>(crow::mustache::ActionType &&,size_t &,size_t &)" der Funktions-Vorlage.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\utility(190,48): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "_Ty1", Datenverlust möglich
+          with
+          [
+              _Ty1=int
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\xmemory(674): message : Siehe Verweis auf die gerade kompilierte Instanziierung "std::pair<int,int>::pair<size_t&,_Ty,0>(_Other1,_Other2 &&) noexcept" der Funktions-Vorlage.
+          with
+          [
+              _Ty=unsigned __int64,
+              _Other1=size_t &,
+              _Other2=unsigned __int64
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\xmemory(681): message : Siehe Verweis auf die gerade kompilierte Instanziierung "std::pair<int,int>::pair<size_t&,_Ty,0>(_Other1,_Other2 &&) noexcept" der Funktions-Vorlage.
+          with
+          [
+              _Ty=unsigned __int64,
+              _Other1=size_t &,
+              _Other2=unsigned __int64
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(592): message : Siehe Verweis auf die gerade kompilierte Instanziierung "void std::_Default_allocator_traits<_Alloc>::construct<_Ty,size_t&,unsigned __int64>(_Alloc &,_Objty *const ,size_t &,unsigned __int64 &&)" der Funktions-Vorlage.
+          with
+          [
+              _Alloc=std::allocator<std::pair<int,int>>,
+              _Ty=std::pair<int,int>,
+              _Objty=std::pair<int,int>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(597): message : Siehe Verweis auf die gerade kompilierte Instanziierung "void std::_Default_allocator_traits<_Alloc>::construct<_Ty,size_t&,unsigned __int64>(_Alloc &,_Objty *const ,size_t &,unsigned __int64 &&)" der Funktions-Vorlage.
+          with
+          [
+              _Alloc=std::allocator<std::pair<int,int>>,
+              _Ty=std::pair<int,int>,
+              _Objty=std::pair<int,int>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(610): message : Siehe Verweis auf die gerade kompilierte Instanziierung "void std::vector<std::pair<int,int>,std::allocator<std::pair<int,int>>>::_Emplace_back_with_unused_capacity<size_t&,_Ty>(size_t &,_Ty &&)" der Funktions-Vorlage.
+          with
+          [
+              _Ty=unsigned __int64
+          ]
+C:\libs\cpp\crow.h(5247): message : Siehe Verweis auf die gerade kompilierte Instanziierung "void std::vector<std::pair<int,int>,std::allocator<std::pair<int,int>>>::emplace_back<size_t&,unsigned __int64>(size_t &,unsigned __int64 &&)" der Funktions-Vorlage.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\utility(190,48): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "_Ty2", Datenverlust möglich
+          with
+          [
+              _Ty2=int
+          ]
+  server.cpp
+C:\libs\cpp\crow.h(117,37): warning C4267: "=": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\libs\cpp\crow.h(366,1): warning C4267: "Argument": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\libs\cpp\crow.h(379,1): warning C4267: "Argument": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\libs\cpp\crow.h(394,1): warning C4267: "Argument": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\libs\cpp\crow.h(2835,42): warning C4244: "=": Konvertierung von "__int64" in "uint16_t", möglicher Datenverlust
+C:\libs\cpp\crow.h(2842,42): warning C4244: "=": Konvertierung von "__int64" in "uint16_t", möglicher Datenverlust
+C:\libs\cpp\crow.h(2849,42): warning C4244: "=": Konvertierung von "__int64" in "uint16_t", möglicher Datenverlust
+C:\libs\cpp\crow.h(2858,46): warning C4244: "=": Konvertierung von "__int64" in "uint16_t", möglicher Datenverlust
+C:\libs\cpp\crow.h(2951,31): warning C4244: "=": Konvertierung von "__int64" in "uint16_t", möglicher Datenverlust
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+C:\libs\cpp\crow.h(4519,39): warning C4267: "Argument": Konvertierung von "size_t" nach "uint32_t", Datenverlust möglich
+C:\libs\cpp\crow.h(4767,1): warning C4267: "return": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\libs\cpp\crow.h(5000,1): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\libs\cpp\crow.h(5019,1): warning C4267: "=": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\libs\cpp\crow.h(5021,1): warning C4267: "Argument": Konvertierung von "size_t" nach "_Ty", Datenverlust möglich
+          with
+          [
+              _Ty=int
+          ]
+C:\libs\cpp\crow.h(5095,1): warning C4267: "Argument": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\libs\cpp\crow.h(5219,1): warning C4267: "Argument": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\libs\cpp\crow.h(5228,1): warning C4267: "Argument": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\libs\cpp\crow.h(5287,1): warning C4267: "=": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\libs\cpp\crow.h(5374,1): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\libs\cpp\crow.h(5681,1): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\libs\cpp\crow.h(7395,1): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\libs\cpp\crow.h(8149,108): warning C4244: "Argument": Konvertierung von "__int64" in "unsigned int", möglicher Datenverlust
+C:\libs\cpp\crow.h(8167,109): warning C4244: "Argument": Konvertierung von "__int64" in "unsigned int", möglicher Datenverlust
+C:\libs\cpp\crow.h(8185,111): warning C4244: "Argument": Konvertierung von "__int64" in "unsigned int", möglicher Datenverlust
+C:\libs\cpp\crow.h(8204,1): warning C4267: "Argument": Konvertierung von "size_t" nach "unsigned int", Datenverlust möglich
+C:\libs\cpp\crow.h(8217,1): warning C4267: "Argument": Konvertierung von "size_t" nach "unsigned int", Datenverlust möglich
+C:\libs\cpp\crow.h(8230,1): warning C4267: "Argument": Konvertierung von "size_t" nach "unsigned int", Datenverlust möglich
+C:\libs\cpp\crow.h(8272,45): warning C4267: "+=": Konvertierung von "size_t" nach "unsigned int", Datenverlust möglich
+C:\libs\cpp\crow.h(8354,1): warning C4267: "return": Konvertierung von "size_t" nach "unsigned int", Datenverlust möglich
+C:\libs\cpp\crow.h(8390,1): warning C4267: "Argument": Konvertierung von "size_t" nach "unsigned int", Datenverlust möglich
+C:\Users\alexa\source\repos\Arma-Remote-Code-Executor\armaSQFExecuterWINDOWS\RSJparser.tcc(72,46): warning C4267: "=": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\Users\alexa\source\repos\Arma-Remote-Code-Executor\armaSQFExecuterWINDOWS\RSJparser.tcc(82,39): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\Users\alexa\source\repos\Arma-Remote-Code-Executor\armaSQFExecuterWINDOWS\RSJparser.tcc(169,53): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\Users\alexa\source\repos\Arma-Remote-Code-Executor\armaSQFExecuterWINDOWS\RSJparser.tcc(171,53): warning C4267: "=": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\Users\alexa\source\repos\Arma-Remote-Code-Executor\armaSQFExecuterWINDOWS\RSJparser.tcc(176,37): warning C4267: "=": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\Users\alexa\source\repos\Arma-Remote-Code-Executor\armaSQFExecuterWINDOWS\RSJparser.tcc(212,36): warning C4267: "+=": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\Users\alexa\source\repos\Arma-Remote-Code-Executor\armaSQFExecuterWINDOWS\RSJparser.tcc(380,1): warning C4267: "return": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\Users\alexa\source\repos\Arma-Remote-Code-Executor\armaSQFExecuterWINDOWS\RSJparser.tcc(386,1): warning C4267: "return": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\Users\alexa\source\repos\Arma-Remote-Code-Executor\armaSQFExecuterWINDOWS\RSJparser.tcc(603,53): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\Users\alexa\source\repos\Arma-Remote-Code-Executor\armaSQFExecuterWINDOWS\RSJparser.tcc(605,53): warning C4267: "=": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\Users\alexa\source\repos\Arma-Remote-Code-Executor\armaSQFExecuterWINDOWS\RSJparser.tcc(610,37): warning C4267: "=": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\libs\cpp\crow.h(6643,35): warning C4267: "+=": Konvertierung von "size_t" nach "char", Datenverlust möglich
+C:\libs\cpp\crow.h(6638): message : beim Kompilieren der Klasse Vorlage-Memberfunktion "std::string crow::websocket::Connection<crow::SSLAdaptor>::build_header(int,size_t)"
+C:\libs\cpp\crow.h(6628): message : Siehe Verweis auf die gerade kompilierte Instanziierung "std::string crow::websocket::Connection<crow::SSLAdaptor>::build_header(int,size_t)" der Funktions-Vorlage.
+C:\libs\cpp\crow.h(7765): message : Siehe Verweis auf die gerade kompilierte Klasse Vorlage-Instanziierung "crow::websocket::Connection<crow::SSLAdaptor>".
+C:\libs\cpp\crow.h(9094,1): warning C4267: "Argument": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\libs\cpp\crow.h(9094): message : beim Kompilieren der Klasse Vorlage-Memberfunktion "void crow::Connection<Adaptor,Handler>::do_read(void)"
+          with
+          [
+              Adaptor=crow::SSLAdaptor,
+              Handler=crow::Crow<>
+          ]
+C:\libs\cpp\crow.h(8863): message : Siehe Verweis auf die gerade kompilierte Instanziierung "void crow::Connection<Adaptor,Handler>::do_read(void)" der Funktions-Vorlage.
+          with
+          [
+              Adaptor=crow::SSLAdaptor,
+              Handler=crow::Crow<>
+          ]
+C:\libs\cpp\crow.h(9428): message : Siehe Verweis auf die gerade kompilierte Klasse Vorlage-Instanziierung "crow::Connection<Adaptor,Handler>".
+          with
+          [
+              Adaptor=crow::SSLAdaptor,
+              Handler=crow::Crow<>
+          ]
+C:\libs\cpp\crow.h(9428): message : beim Kompilieren der Klasse Vorlage-Memberfunktion "void crow::Server<crow::Crow<>,crow::SSLAdaptor>::do_accept(void)"
+C:\libs\cpp\crow.h(9402): message : Siehe Verweis auf die gerade kompilierte Instanziierung "void crow::Server<crow::Crow<>,crow::SSLAdaptor>::do_accept(void)" der Funktions-Vorlage.
+C:\libs\cpp\crow.h(9611): message : Siehe Verweis auf die gerade kompilierte Klasse Vorlage-Instanziierung "crow::Server<crow::Crow<>,crow::SSLAdaptor>".
+C:\libs\cpp\crow.h(9607): message : beim Kompilieren der Klasse Vorlage-Memberfunktion "void crow::Crow<>::stop(void)"
+C:\Users\alexa\source\repos\Arma-Remote-Code-Executor\armaSQFExecuterWINDOWS\server.cpp(192): message : Siehe Verweis auf die gerade kompilierte Instanziierung "void crow::Crow<>::stop(void)" der Funktions-Vorlage.
+C:\Users\alexa\source\repos\Arma-Remote-Code-Executor\armaSQFExecuterWINDOWS\server.cpp(19): message : Siehe Verweis auf die gerade kompilierte Klasse Vorlage-Instanziierung "crow::Crow<>".
+C:\libs\cpp\crow.h(6591,43): warning C4267: "+=": Konvertierung von "size_t" nach "char", Datenverlust möglich
+C:\libs\cpp\crow.h(6588): message : beim Kompilieren der Klasse Vorlage-Memberfunktion "void crow::websocket::Connection<crow::SSLAdaptor>::send_pong(const std::string &)"
+C:\libs\cpp\crow.h(6941): message : Siehe Verweis auf die gerade kompilierte Instanziierung "void crow::websocket::Connection<crow::SSLAdaptor>::send_pong(const std::string &)" der Funktions-Vorlage.
+C:\libs\cpp\crow.h(7137,1): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\libs\cpp\crow.h(7125): message : beim Kompilieren der Klasse Vorlage-Memberfunktion "bool crow::HTTPParser<crow::Connection<Adaptor,Handler>>::feed(const char *,int)"
+          with
+          [
+              Adaptor=crow::SSLAdaptor,
+              Handler=crow::Crow<>
+          ]
+C:\libs\cpp\crow.h(9103): message : Siehe Verweis auf die gerade kompilierte Instanziierung "bool crow::HTTPParser<crow::Connection<Adaptor,Handler>>::feed(const char *,int)" der Funktions-Vorlage.
+          with
+          [
+              Adaptor=crow::SSLAdaptor,
+              Handler=crow::Crow<>
+          ]
+C:\libs\cpp\crow.h(9204): message : Siehe Verweis auf die gerade kompilierte Klasse Vorlage-Instanziierung "crow::HTTPParser<crow::Connection<Adaptor,Handler>>".
+          with
+          [
+              Adaptor=crow::SSLAdaptor,
+              Handler=crow::Crow<>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\xmemory(674,1): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "_Objty", Datenverlust möglich
+          with
+          [
+              _Objty=int
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(592): message : Siehe Verweis auf die gerade kompilierte Instanziierung "void std::_Default_allocator_traits<_Alloc>::construct<_Ty,unsigned __int64>(_Alloc &,_Objty *const ,unsigned __int64 &&)" der Funktions-Vorlage.
+          with
+          [
+              _Alloc=std::allocator<int>,
+              _Ty=int,
+              _Objty=int
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(597): message : Siehe Verweis auf die gerade kompilierte Instanziierung "void std::_Default_allocator_traits<_Alloc>::construct<_Ty,unsigned __int64>(_Alloc &,_Objty *const ,unsigned __int64 &&)" der Funktions-Vorlage.
+          with
+          [
+              _Alloc=std::allocator<int>,
+              _Ty=int,
+              _Objty=int
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(610): message : Siehe Verweis auf die gerade kompilierte Instanziierung "void std::vector<int,std::allocator<int>>::_Emplace_back_with_unused_capacity<_Ty>(_Ty &&)" der Funktions-Vorlage.
+          with
+          [
+              _Ty=unsigned __int64
+          ]
+C:\libs\cpp\crow.h(5271): message : Siehe Verweis auf die gerade kompilierte Instanziierung "void std::vector<int,std::allocator<int>>::emplace_back<unsigned __int64>(unsigned __int64 &&)" der Funktions-Vorlage.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\xmemory(674,1): warning C4267: "Argument": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(592): message : Siehe Verweis auf die gerade kompilierte Instanziierung "void std::_Default_allocator_traits<_Alloc>::construct<_Ty,crow::mustache::ActionType,size_t&,size_t&>(_Alloc &,_Objty *const ,crow::mustache::ActionType &&,size_t &,size_t &)" der Funktions-Vorlage.
+          with
+          [
+              _Alloc=std::allocator<crow::mustache::Action>,
+              _Ty=crow::mustache::Action,
+              _Objty=crow::mustache::Action
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(597): message : Siehe Verweis auf die gerade kompilierte Instanziierung "void std::_Default_allocator_traits<_Alloc>::construct<_Ty,crow::mustache::ActionType,size_t&,size_t&>(_Alloc &,_Objty *const ,crow::mustache::ActionType &&,size_t &,size_t &)" der Funktions-Vorlage.
+          with
+          [
+              _Alloc=std::allocator<crow::mustache::Action>,
+              _Ty=crow::mustache::Action,
+              _Objty=crow::mustache::Action
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(610): message : Siehe Verweis auf die gerade kompilierte Instanziierung "void std::vector<crow::mustache::Action,std::allocator<crow::mustache::Action>>::_Emplace_back_with_unused_capacity<_Ty,size_t&,size_t&>(_Ty &&,size_t &,size_t &)" der Funktions-Vorlage.
+          with
+          [
+              _Ty=crow::mustache::ActionType
+          ]
+C:\libs\cpp\crow.h(5272): message : Siehe Verweis auf die gerade kompilierte Instanziierung "void std::vector<crow::mustache::Action,std::allocator<crow::mustache::Action>>::emplace_back<crow::mustache::ActionType,size_t&,size_t&>(crow::mustache::ActionType &&,size_t &,size_t &)" der Funktions-Vorlage.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\utility(190,48): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "_Ty1", Datenverlust möglich
+          with
+          [
+              _Ty1=int
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\xmemory(674): message : Siehe Verweis auf die gerade kompilierte Instanziierung "std::pair<int,int>::pair<size_t&,_Ty,0>(_Other1,_Other2 &&) noexcept" der Funktions-Vorlage.
+          with
+          [
+              _Ty=unsigned __int64,
+              _Other1=size_t &,
+              _Other2=unsigned __int64
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\xmemory(681): message : Siehe Verweis auf die gerade kompilierte Instanziierung "std::pair<int,int>::pair<size_t&,_Ty,0>(_Other1,_Other2 &&) noexcept" der Funktions-Vorlage.
+          with
+          [
+              _Ty=unsigned __int64,
+              _Other1=size_t &,
+              _Other2=unsigned __int64
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(592): message : Siehe Verweis auf die gerade kompilierte Instanziierung "void std::_Default_allocator_traits<_Alloc>::construct<_Ty,size_t&,unsigned __int64>(_Alloc &,_Objty *const ,size_t &,unsigned __int64 &&)" der Funktions-Vorlage.
+          with
+          [
+              _Alloc=std::allocator<std::pair<int,int>>,
+              _Ty=std::pair<int,int>,
+              _Objty=std::pair<int,int>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(597): message : Siehe Verweis auf die gerade kompilierte Instanziierung "void std::_Default_allocator_traits<_Alloc>::construct<_Ty,size_t&,unsigned __int64>(_Alloc &,_Objty *const ,size_t &,unsigned __int64 &&)" der Funktions-Vorlage.
+          with
+          [
+              _Alloc=std::allocator<std::pair<int,int>>,
+              _Ty=std::pair<int,int>,
+              _Objty=std::pair<int,int>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(610): message : Siehe Verweis auf die gerade kompilierte Instanziierung "void std::vector<std::pair<int,int>,std::allocator<std::pair<int,int>>>::_Emplace_back_with_unused_capacity<size_t&,_Ty>(size_t &,_Ty &&)" der Funktions-Vorlage.
+          with
+          [
+              _Ty=unsigned __int64
+          ]
+C:\libs\cpp\crow.h(5247): message : Siehe Verweis auf die gerade kompilierte Instanziierung "void std::vector<std::pair<int,int>,std::allocator<std::pair<int,int>>>::emplace_back<size_t&,unsigned __int64>(size_t &,unsigned __int64 &&)" der Funktions-Vorlage.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\utility(190,48): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "_Ty2", Datenverlust möglich
+          with
+          [
+              _Ty2=int
+          ]
+  Code wird generiert...
+     Bibliothek "C:\Users\alexa\source\repos\Arma-Remote-Code-Executor\x64\Debug\armaSQFExecuterWINDOWS_x64.lib" und Objekt "C:\Users\alexa\source\repos\Arma-Remote-Code-Executor\x64\Debug\armaSQFExecuterWINDOWS_x64.exp" werden erstellt.
+  armaSQFExecuterWINDOWS.vcxproj -> C:\Users\alexa\source\repos\Arma-Remote-Code-Executor\x64\Debug\armaSQFExecuterWINDOWS_x64.dll

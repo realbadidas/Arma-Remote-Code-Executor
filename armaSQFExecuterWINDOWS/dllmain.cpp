@@ -1,12 +1,17 @@
-#include <windows.h>
 #include <string>
 #include "server.h"
+#include <windows.h>
 #include <thread>
 #include <iostream>
 #include <boost/thread.hpp>
+#include "RSJparserD.tcc"
+
 
 using namespace std;
+bool initialized = false;
 
+std::ifstream mstrm("@sqfremoteexecute\\config.json");
+BETRSJREsource JSON(mstrm);
 
 
 BOOL APIENTRY DllMain(HMODULE hModule,
@@ -15,15 +20,19 @@ BOOL APIENTRY DllMain(HMODULE hModule,
 )
 
 {
-
-
-
 	switch (ul_reason_for_call)
 	{
 	case DLL_PROCESS_ATTACH:
-		AllocConsole();
-		freopen_s((FILE**)stdout, "CONOUT$", "w", stdout);
-		cout << "Started Extension: SQFExecutor | Compiled: " << __DATE__ << " | " << __TIME__ << endl;
+		if (JSON["consoleWindow"].as<bool>(true)) {
+
+			AllocConsole();
+			freopen_s((FILE**)stdout, "CONOUT$", "w", stdout);
+			cout << "Started Extension SQFExecutor & successfully hooked | Compiled: " << __DATE__ << " | " << __TIME__ << endl;
+			cout << "To hide this window, edit the config and disable ConsoleWindow." << endl;
+			cout << "Made with love from badidas" << endl;
+			cout << "Github Repo: https://github.com/realbadidas/Arma-Remote-Code-Executor \r\n" << endl;
+		}
+
 		break;
 	case DLL_THREAD_ATTACH:
 	case DLL_THREAD_DETACH:
@@ -35,7 +44,6 @@ BOOL APIENTRY DllMain(HMODULE hModule,
 
 void init() {
 	boost::thread thd(startServer);
-
 }
 
 
@@ -62,8 +70,15 @@ void __stdcall RVExtension(char* container, int outputSize, const char* function
 		output = input;
 		break;
 	case 2:
-		init();
-		output = "OK";
+		if (!initialized) {
+			init();
+			initialized = true;
+			output = "OK";
+		}
+		else {
+			output = "ERR";
+		}
+
 		break;
 	case 3:
 		stopServer();

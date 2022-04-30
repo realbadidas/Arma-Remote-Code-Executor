@@ -1,31 +1,55 @@
 ﻿  dllmain.cpp
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+C:\Users\alexa\source\repos\Arma-Remote-Code-Executor\armaSQFExecuterWINDOWS\RSJparserD.tcc(110,20): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+C:\Users\alexa\source\repos\Arma-Remote-Code-Executor\armaSQFExecuterWINDOWS\RSJparserD.tcc(127,20): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+C:\Users\alexa\source\repos\Arma-Remote-Code-Executor\armaSQFExecuterWINDOWS\RSJparserD.tcc(209,20): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+C:\Users\alexa\source\repos\Arma-Remote-Code-Executor\armaSQFExecuterWINDOWS\RSJparserD.tcc(333,32): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+C:\Users\alexa\source\repos\Arma-Remote-Code-Executor\armaSQFExecuterWINDOWS\RSJparserD.tcc(352,32): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+C:\Users\alexa\source\repos\Arma-Remote-Code-Executor\armaSQFExecuterWINDOWS\RSJparserD.tcc(544,33): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+C:\Users\alexa\source\repos\Arma-Remote-Code-Executor\armaSQFExecuterWINDOWS\RSJparserD.tcc(671,14): warning C4018: ">=": Konflikt zwischen "signed" und "unsigned"
+C:\Users\alexa\source\repos\Arma-Remote-Code-Executor\armaSQFExecuterWINDOWS\RSJparserD.tcc(740,20): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+C:\libs\cpp\crow.h(6643,35): warning C4267: "+=": Konvertierung von "size_t" nach "char", Datenverlust möglich
+C:\libs\cpp\crow.h(6638): message : beim Kompilieren der Klasse Vorlage-Memberfunktion "std::string crow::websocket::Connection<crow::SSLAdaptor>::build_header(int,size_t)"
+C:\libs\cpp\crow.h(6628): message : Siehe Verweis auf die gerade kompilierte Instanziierung "std::string crow::websocket::Connection<crow::SSLAdaptor>::build_header(int,size_t)" der Funktions-Vorlage.
+C:\libs\cpp\crow.h(7765): message : Siehe Verweis auf die gerade kompilierte Klasse Vorlage-Instanziierung "crow::websocket::Connection<crow::SSLAdaptor>".
+C:\libs\cpp\crow.h(6655,1): warning C4293: ">>": Umschaltanzahl ist negativ oder zu groß, Verhalten undefiniert.
+C:\libs\cpp\crow.h(6836,47): warning C4244: "=": Konvertierung von "uint64_t" in "size_t", möglicher Datenverlust
+C:\libs\cpp\crow.h(6678): message : beim Kompilieren der Klasse Vorlage-Memberfunktion "void crow::websocket::Connection<crow::SSLAdaptor>::do_read(void)"
+C:\libs\cpp\crow.h(6674): message : Siehe Verweis auf die gerade kompilierte Instanziierung "void crow::websocket::Connection<crow::SSLAdaptor>::do_read(void)" der Funktions-Vorlage.
+C:\libs\cpp\crow.h(6591,43): warning C4267: "+=": Konvertierung von "size_t" nach "char", Datenverlust möglich
+C:\libs\cpp\crow.h(6588): message : beim Kompilieren der Klasse Vorlage-Memberfunktion "void crow::websocket::Connection<crow::SSLAdaptor>::send_pong(const std::string &)"
+C:\libs\cpp\crow.h(6941): message : Siehe Verweis auf die gerade kompilierte Instanziierung "void crow::websocket::Connection<crow::SSLAdaptor>::send_pong(const std::string &)" der Funktions-Vorlage.
   server.cpp
   Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
   - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
   - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
   Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
-C:\Users\alexa\source\repos\armaSQFExecuterWINDOWS\armaSQFExecuterWINDOWS\RSJparser.tcc(109,20): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
-C:\Users\alexa\source\repos\armaSQFExecuterWINDOWS\armaSQFExecuterWINDOWS\RSJparser.tcc(126,20): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
-C:\Users\alexa\source\repos\armaSQFExecuterWINDOWS\armaSQFExecuterWINDOWS\RSJparser.tcc(208,20): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
-C:\Users\alexa\source\repos\armaSQFExecuterWINDOWS\armaSQFExecuterWINDOWS\RSJparser.tcc(332,32): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
-C:\Users\alexa\source\repos\armaSQFExecuterWINDOWS\armaSQFExecuterWINDOWS\RSJparser.tcc(351,32): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
-C:\Users\alexa\source\repos\armaSQFExecuterWINDOWS\armaSQFExecuterWINDOWS\RSJparser.tcc(534,33): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
-C:\Users\alexa\source\repos\armaSQFExecuterWINDOWS\armaSQFExecuterWINDOWS\RSJparser.tcc(657,14): warning C4018: ">=": Konflikt zwischen "signed" und "unsigned"
-C:\Users\alexa\source\repos\armaSQFExecuterWINDOWS\armaSQFExecuterWINDOWS\RSJparser.tcc(726,20): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
-C:\Users\alexa\source\repos\armaSQFExecuterWINDOWS\armaSQFExecuterWINDOWS\server.cpp(49,23): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
-C:\libs\c++\crow-master\include\crow\websocket.h(143,1): warning C4267: "+=": Konvertierung von "size_t" nach "char", Datenverlust möglich
-C:\libs\c++\crow-master\include\crow\websocket.h(138): message : beim Kompilieren der Klasse Vorlage-Memberfunktion "std::string crow::websocket::Connection<crow::SSLAdaptor>::build_header(int,size_t)"
-C:\libs\c++\crow-master\include\crow\websocket.h(128): message : Siehe Verweis auf die gerade kompilierte Instanziierung "std::string crow::websocket::Connection<crow::SSLAdaptor>::build_header(int,size_t)" der Funktions-Vorlage.
-C:\libs\c++\crow-master\include\crow\routing.h(296): message : Siehe Verweis auf die gerade kompilierte Klasse Vorlage-Instanziierung "crow::websocket::Connection<crow::SSLAdaptor>".
-C:\libs\c++\crow-master\include\crow\websocket.h(336,47): warning C4244: "=": Konvertierung von "uint64_t" in "size_t", möglicher Datenverlust
-C:\libs\c++\crow-master\include\crow\websocket.h(178): message : beim Kompilieren der Klasse Vorlage-Memberfunktion "void crow::websocket::Connection<crow::SSLAdaptor>::do_read(void)"
-C:\libs\c++\crow-master\include\crow\websocket.h(174): message : Siehe Verweis auf die gerade kompilierte Instanziierung "void crow::websocket::Connection<crow::SSLAdaptor>::do_read(void)" der Funktions-Vorlage.
-C:\libs\c++\crow-master\include\crow\websocket.h(91,1): warning C4267: "+=": Konvertierung von "size_t" nach "char", Datenverlust möglich
-C:\libs\c++\crow-master\include\crow\websocket.h(88): message : beim Kompilieren der Klasse Vorlage-Memberfunktion "void crow::websocket::Connection<crow::SSLAdaptor>::send_pong(const std::string &)"
-C:\libs\c++\crow-master\include\crow\websocket.h(441): message : Siehe Verweis auf die gerade kompilierte Instanziierung "void crow::websocket::Connection<crow::SSLAdaptor>::send_pong(const std::string &)" der Funktions-Vorlage.
-     Bibliothek "C:\Users\alexa\source\repos\armaSQFExecuterWINDOWS\Release\armaSQFExecuterWINDOWS.lib" und Objekt "C:\Users\alexa\source\repos\armaSQFExecuterWINDOWS\Release\armaSQFExecuterWINDOWS.exp" werden erstellt.
+C:\Users\alexa\source\repos\Arma-Remote-Code-Executor\armaSQFExecuterWINDOWS\RSJparser.tcc(110,20): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+C:\Users\alexa\source\repos\Arma-Remote-Code-Executor\armaSQFExecuterWINDOWS\RSJparser.tcc(127,20): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+C:\Users\alexa\source\repos\Arma-Remote-Code-Executor\armaSQFExecuterWINDOWS\RSJparser.tcc(209,20): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+C:\Users\alexa\source\repos\Arma-Remote-Code-Executor\armaSQFExecuterWINDOWS\RSJparser.tcc(333,32): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+C:\Users\alexa\source\repos\Arma-Remote-Code-Executor\armaSQFExecuterWINDOWS\RSJparser.tcc(352,32): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+C:\Users\alexa\source\repos\Arma-Remote-Code-Executor\armaSQFExecuterWINDOWS\RSJparser.tcc(544,33): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+C:\Users\alexa\source\repos\Arma-Remote-Code-Executor\armaSQFExecuterWINDOWS\RSJparser.tcc(671,14): warning C4018: ">=": Konflikt zwischen "signed" und "unsigned"
+C:\Users\alexa\source\repos\Arma-Remote-Code-Executor\armaSQFExecuterWINDOWS\RSJparser.tcc(740,20): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+C:\Users\alexa\source\repos\Arma-Remote-Code-Executor\armaSQFExecuterWINDOWS\server.cpp(47,23): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+C:\libs\cpp\crow.h(6643,35): warning C4267: "+=": Konvertierung von "size_t" nach "char", Datenverlust möglich
+C:\libs\cpp\crow.h(6638): message : beim Kompilieren der Klasse Vorlage-Memberfunktion "std::string crow::websocket::Connection<crow::SSLAdaptor>::build_header(int,size_t)"
+C:\libs\cpp\crow.h(6628): message : Siehe Verweis auf die gerade kompilierte Instanziierung "std::string crow::websocket::Connection<crow::SSLAdaptor>::build_header(int,size_t)" der Funktions-Vorlage.
+C:\libs\cpp\crow.h(7765): message : Siehe Verweis auf die gerade kompilierte Klasse Vorlage-Instanziierung "crow::websocket::Connection<crow::SSLAdaptor>".
+C:\libs\cpp\crow.h(6655,1): warning C4293: ">>": Umschaltanzahl ist negativ oder zu groß, Verhalten undefiniert.
+C:\libs\cpp\crow.h(6836,47): warning C4244: "=": Konvertierung von "uint64_t" in "size_t", möglicher Datenverlust
+C:\libs\cpp\crow.h(6678): message : beim Kompilieren der Klasse Vorlage-Memberfunktion "void crow::websocket::Connection<crow::SSLAdaptor>::do_read(void)"
+C:\libs\cpp\crow.h(6674): message : Siehe Verweis auf die gerade kompilierte Instanziierung "void crow::websocket::Connection<crow::SSLAdaptor>::do_read(void)" der Funktions-Vorlage.
+C:\libs\cpp\crow.h(6591,43): warning C4267: "+=": Konvertierung von "size_t" nach "char", Datenverlust möglich
+C:\libs\cpp\crow.h(6588): message : beim Kompilieren der Klasse Vorlage-Memberfunktion "void crow::websocket::Connection<crow::SSLAdaptor>::send_pong(const std::string &)"
+C:\libs\cpp\crow.h(6941): message : Siehe Verweis auf die gerade kompilierte Instanziierung "void crow::websocket::Connection<crow::SSLAdaptor>::send_pong(const std::string &)" der Funktions-Vorlage.
+     Bibliothek "C:\Users\alexa\source\repos\Arma-Remote-Code-Executor\Release\armaSQFExecuterWINDOWS.lib" und Objekt "C:\Users\alexa\source\repos\Arma-Remote-Code-Executor\Release\armaSQFExecuterWINDOWS.exp" werden erstellt.
   Code wird generiert.
   Previous IPDB not found, fall back to full compilation.
-  All 6733 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  All 6944 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   Codegenerierung ist abgeschlossen.
-  armaSQFExecuterWINDOWS.vcxproj -> C:\Users\alexa\source\repos\armaSQFExecuterWINDOWS\Release\armaSQFExecuterWINDOWS.dll
+  armaSQFExecuterWINDOWS.vcxproj -> C:\Users\alexa\source\repos\Arma-Remote-Code-Executor\Release\armaSQFExecuterWINDOWS.dll
