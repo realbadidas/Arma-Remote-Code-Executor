@@ -1,5 +1,5 @@
 # Arma-Remote-Code-Executor
-With this servermod you can easily send script commands or SQF code via a POST request with HTTP or HTTPS to your ArmA server! (Maybe even your DayZ server i have no clue lol test it yourself)
+With this servermod you can easily send script commands or SQF code via a POST request with HTTP or HTTPS to your ArmA server!
 
 
 # Hello there!
